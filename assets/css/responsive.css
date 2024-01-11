@@ -1,0 +1,94 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+/* Tablet & mobile */
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+    }
+    .socials-list {
+        font-size: 48px;
+    }
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+    p i:before {
+        content: "\e693";
+        margin-right: 10px;
+    }
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width:1023px) {
+    .contact-form {
+        line-height: 2;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    #nav {
+        display: block;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    #nav > li {
+        display: block;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-bth {
+
+        display: none;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+   
+    #content .member-img {
+        width: 60%;
+    }
+    .contact-form {
+        margin-top: 30px;
+      
+        margin-bottom: 50px;
+    }
+    .row.contact-comtent{
+        margin-left: 10px;
+    }
+     .mr-bt-0{
+        margin-bottom: 0px !important;
+    }
+    p i:before {
+        content: "\e693";
+        margin-right: 10px;
+    }
+}
